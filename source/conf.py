@@ -11,7 +11,7 @@ copyright = '2026, tt'
 author = 'tt'
 release = '1'
 
-import sphinx_rtd_theme
+##import sphinx_rtd_theme
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
