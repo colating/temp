@@ -6,15 +6,18 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'tt'
-copyright = '2026, t'
-author = 't'
-release = '0'
+project = 'testt'
+copyright = '2026, tt'
+author = 'tt'
+release = '1'
+
+import sphinx_rtd_theme
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ['sphinx_rtd_theme',
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -25,5 +28,6 @@ language = 'zh_CN'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 ##html_theme = 'alabaster'
-html_theme = 'sphinx-rtd-theme'
+
+html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
