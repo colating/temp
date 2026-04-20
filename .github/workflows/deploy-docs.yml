@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install -r python/requirements.txt
+          pip install -r requirements.txt
           pip install sphinx sphinx-rtd-theme sphinx-autodoc-typehints sphinx-copybutton
 
       # 步骤 4: 生成 HTML 文档
