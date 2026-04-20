@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-TEST 测试 documentation
+TEST 2 测试 documentation
 ============================
 
 Add your content using ``reStructuredText`` syntax. See the
